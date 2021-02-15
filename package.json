@@ -33,7 +33,7 @@
     "e2e": "ng e2e",
     "prod-build": "ng build --prod",
     "serve-from-dist-folder": "ws --spa index.html -d dist/demo -p 31129",
-    "buidl-and-serve": "npm run prod-build && npm run serve-from-dist-folder"
+    "build-and-serve": "npm run prod-build && npm run serve-from-dist-folder"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^0.1102.0",

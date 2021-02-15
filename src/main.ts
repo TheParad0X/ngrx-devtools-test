@@ -7,6 +7,7 @@ import { environment } from 'src/environments/environment.prod';
 import { AppModule } from './app/app.module';
 
 if (environment.production) {
+  console.log('### production');
   enableProdMode();
 }
 
